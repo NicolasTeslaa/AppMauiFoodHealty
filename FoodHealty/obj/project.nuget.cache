@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7EIIam1Kkduhy3zxXb8jz7/2rELASTDOvuybDodzdaiyB1h+rPjDVCHTsIRe0aFTTZtkRA46GXE7uYdBCu+a4w==",
+  "dgSpecHash": "8xyIRqDFIy2sXn0iv5+b6DGsxG1J2mqff7uGHF4JE0gyujul85pTa+6eAuQiBUi4Zqn5DqXQbQexYcI86qMe5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\OneDrive\\Documentos\\GitHub\\FoodHealty\\FoodHealty\\FoodHealty.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\OneDrive\\Documentos\\GitHub\\FoodHealty\\AppMauiFoodHealty\\FoodHealty\\FoodHealty.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

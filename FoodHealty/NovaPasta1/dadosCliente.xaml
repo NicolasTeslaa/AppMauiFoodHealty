@@ -23,7 +23,7 @@
                 Margin="0,20,0,0"
                 Keyboard="Numeric"
                 Placeholder=" Altura" />
-            <Entry Placeholder="Idade" />
+            <Entry Keyboard="Numeric" Placeholder="Idade" />
 
             <Entry Keyboard="Numeric" Placeholder=" Peso" />
             <Entry Keyboard="Numeric" Placeholder=" IMC" />
