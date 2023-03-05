@@ -80,6 +80,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="meusControles.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Telas\dadosCliente.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

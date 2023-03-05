@@ -4,40 +4,18 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25"
-            VerticalOptions="Center">
-
-            <Image
-                HeightRequest="200"
-                HorizontalOptions="Center"
-                Source="healthyfood.png" />
-
-            <Label
-                FontSize="29"
-                HorizontalOptions="Center"
-                Text="Bem vindo ao APP Saudavel!" 
-                HorizontalTextAlignment="Center"/>
-
-            <Label
-                FontSize="20"
-                HorizontalOptions="Center"
-                Text="Com esse APP você vai conseguir comer realmente BEM"
-                HorizontalTextAlignment="Center"
-                />
-
-            <Button
-                Clicked="vaiProLogin"
-                HorizontalOptions="Center"
-                Text="Fazer Login" />
-
-            <Button
-                Clicked="verExemplos"
-                HorizontalOptions="Center"
-                Text="Ver Exemplos" />
-        </VerticalStackLayout>
-    </ScrollView>
-
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25"
+        VerticalOptions="Center">
+        <Label
+            FontSize="20"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            Text="Apresentando o que foi estudado" />
+        <Button
+            Clicked="verExemplos"
+            HorizontalOptions="Center"
+            Text="Ver Exemplos" />
+    </VerticalStackLayout>
 </ContentPage>
