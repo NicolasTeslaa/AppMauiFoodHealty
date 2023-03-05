@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="FoodHealty.Telas.exemploHorizontalStackLayout"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="exemploHorizontalStackLayout">
+    <ScrollView>
+        <StackLayout>
+            <HorizontalStackLayout>
+                <Label
+                    Padding="5"
+                    BackgroundColor="Red"
+                    FontSize="Medium"
+                    Text="Horizontal Stack Layout"
+                    TextColor="White"
+                    WidthRequest="100" />
+                <Label
+                    Padding="5"
+                    BackgroundColor="Blue"
+                    Text="sempre que é aplicado mais de um item ele joga para o lado"
+                    TextColor="White"
+                    WidthRequest="100" />
+                <Label
+                    Padding="5"
+                    BackgroundColor="Black"
+                    Text="nunca um embaixo do outro"
+                    TextColor="White"
+                    WidthRequest="100" />
+            </HorizontalStackLayout>
+            <VerticalStackLayout Margin="0,40">
+                <Label
+                    Padding="5"
+                    BackgroundColor="Red"
+                    FontSize="Medium"
+                    Text="Vertical Stack Layout"
+                    TextColor="White" />
+                <Label
+                    Padding="5"
+                    BackgroundColor="Blue"
+                    Text="sempre que é aplicado mais de um item ele joga para baixo"
+                    TextColor="White" />
+                <Label
+                    Padding="5"
+                    BackgroundColor="black"
+                    Text="nunca para o lado"
+                    TextColor="White" />
+            </VerticalStackLayout>
+            <HorizontalStackLayout>
+                <Label
+                    Padding="5"
+                    BackgroundColor="Red"
+                    FontSize="Medium"
+                    Text="É possivel colocar um dentro do outro"
+                    TextColor="White"
+                    WidthRequest="200" />
+                <Label
+                    Padding="5"
+                    BackgroundColor="Blue"
+                    WidthRequest="100" />
+                <Label
+                    Padding="5"
+                    BackgroundColor="Black"
+                    WidthRequest="100" />
+            </HorizontalStackLayout>
+            <Button
+                Margin="0,40"
+                Clicked="verBordas"
+                Text="Ver Borders" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

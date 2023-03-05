@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="FoodHealty.Telas.exemplos"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="exemplos">
+    <StackLayout>
+        <Label
+            Margin="0,15"
+            FontSize="Large"
+            HorizontalOptions="Center"
+            Text="Primeiro exemplo de GRID"
+            VerticalOptions="Center" />
+        <Grid ColumnDefinitions="*,*" RowDefinitions="50,50,*,*">
+            <BoxView Color="Green" />
+            <Label
+                HorizontalOptions="Center"
+                Text="Linha 0, Coluna 0"
+                TextColor="White"
+                VerticalOptions="Center" />
+            <BoxView Grid.Column="1" Color="Blue" />
+            <Label
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                Text="Linha 0, Coluna 1"
+                TextColor="White"
+                VerticalOptions="Center" />
+            <BoxView Grid.Row="1" Color="Teal" />
+            <Label
+                Grid.Row="1"
+                HorizontalOptions="Center"
+                Text="Linha 1, Coluna 0"
+                TextColor="White"
+                VerticalOptions="Center" />
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="1"
+                Color="Purple" />
+            <Label
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                Text="Linha 1, Coluna 1"
+                TextColor="White"
+                VerticalOptions="Center" />
+            <BoxView
+                Grid.Row="2"
+                Grid.ColumnSpan="2"
+                Color="Red" />
+            <Label
+                Grid.Row="2"
+                Grid.ColumnSpan="2"
+                HorizontalOptions="Center"
+                Text="Linha 2, Coluna 0 and 1"
+                TextColor="White"
+                VerticalOptions="Center" />
+
+            <Button
+                Grid.Row="3"
+                Grid.ColumnSpan="2"
+                Margin="0,10"
+                Clicked="verHorizontalStackLayout"
+                HorizontalOptions="Center"
+                Text="Ver Exemplos Stack Layout"
+                TextColor="White" />
+        </Grid>
+    </StackLayout>
+</ContentPage>

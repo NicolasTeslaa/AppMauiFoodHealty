@@ -11,8 +11,13 @@ public partial class MainPage : ContentPage
 
 	private void vaiProLogin(object sender, EventArgs e)
 	{
-        Shell.Current.Navigation.PushAsync(new NovaPasta1.Login());
+	Shell.Current.Navigation.PushAsync(new NovaPasta1.Login());
 
     }
+
+	private void verExemplos(object sender, EventArgs e)
+	{
+		Shell.Current.Navigation.PushAsync(new Telas.exemplos());
+	}
 }
 

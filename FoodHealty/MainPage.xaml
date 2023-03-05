@@ -33,6 +33,10 @@
                 HorizontalOptions="Center"
                 Text="Fazer Login" />
 
+            <Button
+                Clicked="verExemplos"
+                HorizontalOptions="Center"
+                Text="Ver Exemplos" />
         </VerticalStackLayout>
     </ScrollView>
 

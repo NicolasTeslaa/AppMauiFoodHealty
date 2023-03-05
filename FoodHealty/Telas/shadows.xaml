@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="FoodHealty.Telas.shadows"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="shadows">
+    <StackLayout>
+
+        <HorizontalStackLayout
+            Margin="0,40"
+            HorizontalOptions="Center"
+            Spacing="80">
+
+            <VerticalStackLayout>
+                <Label
+                    FontSize="Medium"
+                    HorizontalOptions="Center"
+                    Text="Com Sombra" />
+                <Image Source="dotnet_bot.png" WidthRequest="150">
+                    <Image.Shadow>
+                        <Shadow
+                            Brush="Black"
+                            Opacity="0.8"
+                            Radius="40"
+                            Offset="20,20" />
+                    </Image.Shadow>
+                </Image>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <Label
+                    FontSize="Medium"
+                    HorizontalOptions="Center"
+                    Text="Sem Sombra" />
+                <Image Source="dotnet_bot.png" WidthRequest="150" />
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+
+        <Label
+            Padding="30"
+            FontSize="Large"
+            HorizontalTextAlignment="Center"
+            Text="As sombras servem para dar profundidade aos elementos e segue a ideia do Material Design"
+            VerticalTextAlignment="Center" />
+    </StackLayout>
+
+</ContentPage>

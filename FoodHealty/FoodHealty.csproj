@@ -48,6 +48,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="NovaPasta\**" />
+	  <Compile Remove="NovaPasta\**" />
+	  <EmbeddedResource Remove="NovaPasta\**" />
+	  <MauiCss Remove="NovaPasta\**" />
+	  <MauiXaml Remove="NovaPasta\**" />
+	  <None Remove="NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiImage Remove="Resources\Images\dotnet_bot.svg" />
 	</ItemGroup>
 
@@ -62,20 +71,31 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="NovaPasta\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Compile Update="NovaPasta1\Login.xaml.cs">
+	  <Compile Update="Telas\exemplosStackLayout.xaml.cs">
+	    <DependentUpon>exemplosStackLayout.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Telas\Login.xaml.cs">
 	    <DependentUpon>Login.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="NovaPasta1\dadosCliente.xaml">
+	  <MauiXaml Update="Telas\dadosCliente.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="NovaPasta1\Login.xaml">
+	  <MauiXaml Update="Telas\exemplosBordas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Telas\exemplosStackLayout.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Telas\exemplos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Telas\Login.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Telas\shadows.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
