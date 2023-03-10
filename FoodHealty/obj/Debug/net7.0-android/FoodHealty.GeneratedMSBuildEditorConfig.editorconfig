@@ -12,75 +12,75 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = FoodHealty
-build_property.ProjectDir = C:\Users\nicol\OneDrive\Documentos\GitHub\FoodHealty\AppMauiFoodHealty\FoodHealty\
+build_property.ProjectDir = c:\Users\nicol\OneDrive\Documentos\GitHub\FoodHealty\AppMauiFoodHealty\FoodHealty\
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/App.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/AppShell.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/MainPage.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/meusControles.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/meusControles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.meusControles.xaml
 build_metadata.AdditionalFiles.TargetPath = meusControles.xaml
 build_metadata.AdditionalFiles.RelativePath = meusControles.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Resources/Styles/Colors.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Resources/Styles/Styles.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/dadosCliente.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/dadosCliente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.Telas.dadosCliente.xaml
 build_metadata.AdditionalFiles.TargetPath = Telas\dadosCliente.xaml
 build_metadata.AdditionalFiles.RelativePath = Telas\dadosCliente.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/exemplos.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/exemplos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.Telas.exemplos.xaml
 build_metadata.AdditionalFiles.TargetPath = Telas\exemplos.xaml
 build_metadata.AdditionalFiles.RelativePath = Telas\exemplos.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/exemplosBordas.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/exemplosBordas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.Telas.exemplosBordas.xaml
 build_metadata.AdditionalFiles.TargetPath = Telas\exemplosBordas.xaml
 build_metadata.AdditionalFiles.RelativePath = Telas\exemplosBordas.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/exemplosStackLayout.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/exemplosStackLayout.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.Telas.exemplosStackLayout.xaml
 build_metadata.AdditionalFiles.TargetPath = Telas\exemplosStackLayout.xaml
 build_metadata.AdditionalFiles.RelativePath = Telas\exemplosStackLayout.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/Login.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.Telas.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Telas\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Telas\Login.xaml
 
-[C:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/shadows.xaml]
+[c:/Users/nicol/OneDrive/Documentos/GitHub/FoodHealty/AppMauiFoodHealty/FoodHealty/Telas/shadows.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodHealty.Telas.shadows.xaml
 build_metadata.AdditionalFiles.TargetPath = Telas\shadows.xaml
